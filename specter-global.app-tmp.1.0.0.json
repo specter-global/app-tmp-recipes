@@ -23,6 +23,16 @@
                     "  * Using MakerBundle? Try <info>php bin/console make:entity --api-resource</info>"
                 ]
             },
+            "files": {
+                "config/packages/my_private.yaml": {
+                    "contents": [
+                        "my_private:",
+                        "    encode: true",
+                        ""
+                    ],
+                    "executable": false
+                }
+            },
             "ref": "5ec7bf7162ffa0094f47cd03b16a445e55148f58"
         }
     }
