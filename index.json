@@ -1,10 +1,9 @@
 {
     "recipes": {
         "specter-global/app-tmp": [
-            "1.0"
+            "1.0.0"
         ]
     },
-    "versions": [],
     "branch": "master",
     "is_contrib": true,
     "_links": {
