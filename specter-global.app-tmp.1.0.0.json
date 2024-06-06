@@ -3,7 +3,7 @@
         "specter-global/app-tmp": {
             "manifest": {
                 "bundles": {
-                    "SpecterGlobal\\Bundle\\TagManagerBundle\\SpecterGlobalTagManagerBundle": ["all"]
+                    "SpecterGlobal\\Bundle\\TagManagerBundle\\SpecterGlobalTagManagerBundle": ["dev"]
                 },
                 "copy-from-recipe": {
                     "specter-global/app-tmp/1.0/config/": "%CONFIG_DIR%"
@@ -23,7 +23,7 @@
                     "  * Using MakerBundle? Try <info>php bin/console make:entity --api-resource</info>"
                 ]
             },
-            "ref": "5ec7bf7162ffa0094f47cd03b16a445e55148f54"
+            "ref": "5ec7bf7162ffa0094f47cd03b16a445e55148f55"
         }
     }
 }
