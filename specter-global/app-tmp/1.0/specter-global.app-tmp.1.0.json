@@ -1,0 +1,15 @@
+{
+    "manifests": {
+        "specter-global/app-tmp": {
+            "manifest": {
+                "bundles": {
+                    "SpecterGlobal\\Bundle\\TagManagerBundle\\SpecterGlobalTagManagerBundle": ["all"]
+                },
+                "copy-from-recipe": {
+                    "config/": "%CONFIG_DIR%"
+                }
+            },
+            "ref": "5ec7bf7162ffa0094f47cd03b16a445e55148f53"
+        }
+    }
+}

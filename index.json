@@ -1,0 +1,15 @@
+{
+    "recipes": {
+        "specter-global/app-tmp": [
+            "1.0"
+        ]
+    },
+    "versions": [],
+    "branch": "master",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/specter-global/app-tmp-recipes",
+        "origin_template": "{package}:{version}@github.com/specter-global/app-tmp-recipes:main",
+        "recipe_template": "https://api.github.com/repos/specter-global/app-tmp-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
