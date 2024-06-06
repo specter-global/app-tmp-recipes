@@ -23,7 +23,7 @@
                     "  * Using MakerBundle? Try <info>php bin/console make:entity --api-resource</info>"
                 ]
             },
-            "ref": "5ec7bf7162ffa0094f47cd03b16a445e55148f53"
+            "ref": "5ec7bf7162ffa0094f47cd03b16a445e55148f54"
         }
     }
 }
