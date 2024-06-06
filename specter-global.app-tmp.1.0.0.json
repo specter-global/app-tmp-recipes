@@ -6,7 +6,7 @@
                     "SpecterGlobal\\Bundle\\TagManagerBundle\\SpecterGlobalTagManagerBundle": ["dev"]
                 },
                 "copy-from-recipe": {
-                    "specter-global/app-tmp/1.0/config/": "%CONFIG_DIR%"
+                    "specter-global/app-tmp/1.0.0/config/": "%CONFIG_DIR%"
                 },
                 "post-install-output": [
                     "  * Your admin is almost ready:",
