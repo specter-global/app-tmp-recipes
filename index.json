@@ -11,6 +11,6 @@
     "_links": {
         "repository": "github.com/specter-global/app-tmp-recipes",
         "origin_template": "{package}:{version}@github.com/specter-global/app-tmp-recipes:master",
-        "recipe_template": "https://api.github.com/repos/specter-global/app-tmp-recipes/contents/{package_dotted}.{version}.json"
+        "recipe_template": "https://api.github.com/repos/specter-global/app-tmp-recipes/contents/index.json?ref=master"
     }
 }
