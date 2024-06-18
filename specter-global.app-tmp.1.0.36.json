@@ -4,7 +4,7 @@
             "manifest": {
                 "bundles": {
                     "SpecterGlobal\\Bundle\\TagManagerBundle\\SpecterGlobalTagManagerBundle": [
-                        "dev"
+                        "all"
                     ]
                 },
                 "copy-from-recipe": {
@@ -49,7 +49,7 @@
                     "executable": false
                 }
             },
-            "ref": "7350a3957d6bc392c1063b4d7ca858b01c768611"
+            "ref": "ff6e91bb08018c277465d56bad3566195966ba4e"
         }
     }
 }
