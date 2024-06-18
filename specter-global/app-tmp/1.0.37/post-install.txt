@@ -1,5 +1,0 @@
-  * It works!:
-
-  * The Demo Flex Recipe and bundle have been installed!
-
-  * <fg=blue>Read</> the documentation at <comment>https://github.com/danielm/symfony-recipes/</>
