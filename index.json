@@ -2,10 +2,7 @@
     "aliases": [],
     "recipes": {
         "specter-global/app-tmp": [
-            "1.0.0",
-            "1.0.36",
-            "1.0.37",
-            "1.0.38"
+            "1.0"
         ]
     },
     "recipe-conflicts": [],
