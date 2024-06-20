@@ -1,0 +1,7 @@
+{
+    "splits": {
+        "specter-global/app-tmp": [
+            "1.0"
+        ]
+    }
+}

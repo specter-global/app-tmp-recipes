@@ -1,16 +1,16 @@
-name: Update Flex endpoint
+name: Update Flex Archives
 
 on:
-    push:
-        branches:
-            - main
-
-permissions:
-    contents: write
+    workflow_call:
+        inputs:
+            branch:
+                default: main
+                required: false
+                type: string
 
 jobs:
-    flex-update:
-        name: Update Flex endpoint
+    flex-update-archived:
+        name: Update Flex Archives
         runs-on: ubuntu-latest
 
         steps:
@@ -32,15 +32,15 @@ jobs:
                     cd recipes-checker-main
                     composer install --ansi --no-dev
             -
-                name: Update Flex endpoint
+                name: Update Flex Archives
                 run: |
-                    mkdir .github/flex-endpoint
-                    git ls-tree HEAD */*/* | php .github/recipes-checker-main/run generate:flex-endpoint ${{ github.repository }} main flex/main .github/flex-endpoint --contrib
+                    git switch ${{ inputs.branch }}
+
+                    mkdir .github/archived
+                    php .github/recipes-checker-main/run generate:archived-recipes . ${{ inputs.branch }} .github/archived
+
                     git switch flex/main
-                    git rm --ignore-unmatch -q *.json
-                    mv .github/flex-endpoint/*.json .
-                    git add *.json
-                    cp -a .github/flex-endpoint/archived .
+                    cp -a .github/archived .
                     git add archived/
-                    git commit -m 'Update Flex endpoint' || true
+                    git commit -m 'Update Flex archives' || true
                     git push origin -f flex/main
