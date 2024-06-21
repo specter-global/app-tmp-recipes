@@ -32,13 +32,3 @@ The updated `composer.json` file should now have the following contents:
     }
 }
 ```
-
-<div style="text-align: center">
-    <a href="https://developer.specter.global/docs/symfony-recipes" target="_blank">
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://specter.global/favicon-32x32.png">
-            <source media="(prefers-color-scheme: light)" srcset="https://specter.global/favicon-32x32.png">
-            <img alt="Specter.Global" src="https://specter.global/favicon-32x32.png">
-        </picture>
-    </a>
-</div>
