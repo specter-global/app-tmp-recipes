@@ -1,6 +1,6 @@
 specter_global_tag_manager:
     enabled: true
-    tag_id: 'TAG_ID'
+    tag_id: 'DUMMY_TAG_MANAGER_ID'
     cookie_flags:
         - 'Flag=Value'
     linker:

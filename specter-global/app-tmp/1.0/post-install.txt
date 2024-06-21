@@ -1,5 +1,5 @@
-  * It works!:
+  * You're ready to use SpecterGlobal\TagManagerBundle
 
-  * The Demo Flex Recipe and bundle have been installed!
+  * TagManagerBundle has been configured in your <comment>specter_global_tag_manager.yaml</> file
 
-  * <fg=blue>Read</> the documentation at <comment>https://github.com/danielm/symfony-recipes/</>
+  * <fg=blue>Read</> the documentation at <comment>https://developer.specter.global/docs/tag-manager-bundle</>
