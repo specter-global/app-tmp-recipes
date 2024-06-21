@@ -1,9 +1,9 @@
 # Symfony Recipes
 
-This repository contains recipes for Composer packages developed by the [Specter.Global](https://specter.global) Team.
+This repository contains recipes for Composer packages developed by the [Specter.Global Team](https://specter.global).
 
 For comprehensive details regarding the recipes and their usage, please refer to the
-Specter.Global [Symfony recipes documentation](https://developer.specter.global/docs/symfony-recipes).
+[Specter.Global Symfony recipes documentation](https://developer.specter.global/docs/symfony-recipes).
 
 ## Configure Access to Recipes
 
