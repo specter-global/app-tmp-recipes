@@ -1,5 +1,10 @@
 {
-    "aliases": [],
+    "aliases": {
+        "google-tag-manager": "specter-global/app-tmp",
+        "googletagmanager": "specter-global/app-tmp",
+        "tag-manager": "specter-global/app-tmp",
+        "tagmanager": "specter-global/app-tmp"
+    },
     "recipes": {
         "specter-global/app-tmp": [
             "1.0"
