@@ -1,5 +1,4 @@
 {
-    "aliases": ["tag-manager", "google-tag-manager"],
     "bundles": {
         "SpecterGlobal\\Bundle\\TagManagerBundle\\SpecterGlobalTagManagerBundle": ["all"]
     },
